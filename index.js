@@ -1,7 +1,7 @@
 const http = require('http');
 
 const server = http.createServer((req,res) =>{
-    const {url, method} = request;
+    const {url, method} = req;
 
     if (url =='/'){
         if(method == 'GET'){
@@ -16,6 +16,6 @@ const server = http.createServer((req,res) =>{
     }
 })
 
-server.listen(3001,'localhost',() => {
-    console.log('Server is running on http:/localhost:3001');
+server.listen(3002,'localhost',() => {
+    console.log('Server is running on http://localhost:3002');
 })
