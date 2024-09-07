@@ -22,5 +22,11 @@
   "bugs": {
     "url": "https://github.com/Gowtham-Mani-24/node-assignment1/issues"
   },
-  "homepage": "https://github.com/Gowtham-Mani-24/node-assignment1#readme"
+  "homepage": "https://github.com/Gowtham-Mani-24/node-assignment1#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }
